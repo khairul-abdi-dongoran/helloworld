@@ -30,6 +30,7 @@ message HelloRequest {
   string name = 1;
   int32 age = 2;
   int32 address = 3;
+  string phone_number = 4;
 }
 
 // The response message containing the greetings

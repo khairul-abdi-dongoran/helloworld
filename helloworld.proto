@@ -29,7 +29,7 @@ service Greeter {
 message HelloRequest {
   string name = 1;
   int32 age = 2;
-  int32 address = 3;
+  string address = 3;
   string phone_number = 4;
 }
 
